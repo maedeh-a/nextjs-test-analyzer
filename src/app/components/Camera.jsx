@@ -1,6 +1,7 @@
 import {default as NImage} from 'next/image';
 import React, { useCallback, useState } from 'react'
 import { useDropzone } from 'react-dropzone';
+import doctor from '../img/doctor.png'
 
 const Camera = () => {
     const [picture, setPicture] = useState('')
@@ -56,21 +57,55 @@ const Camera = () => {
 
     const { getRootProps, getInputProps } = useDropzone({ onDrop })
     return (
-        <form id="form1">
-            <div {...getRootProps()} style={{ border: "1px solid #ddd", padding: 16, marginBottom: 6 }}>
-                <input {...getInputProps()} accept="application/pdf" />
-                
-                {
-                    selectedFile?.name ??
-                    "Drag or select the PDF file here"
+        <>
+        <section className="Camera-upload-body">
+        <div className='upload-box'>
+                <div className="head-upload">
+                    <div className="text-box">
+                        <h1>
+                            AL MED TEST
+                        </h1>
+                        <span className="text-by">BY RZP AL</span>
+                    </div>
+                    <div className="">
+                            <img src={doctor} alt="" />
+                    </div>
+                    <div className="text-box">
+                        <span className="text1">upload a photo or PDF <br /> Of Your Medical Test</span>
+                        <p className="text2">
+                            It colud be ablood test result or repot of eny medical test like MRT , CT-Scan or Sonogaphy.
+                        </p>
+                    </div>
+                    
+                </div>
 
-                }
-            </div>
-            <input type='file' id="imgInp" accept="image/*" capture="camera" onChange={onCameraCapture} />
-            {picture && <NImage id="blah" src={picture} alt="your image" width={selectedFileDimensions.width} height={selectedFileDimensions.height} /> }
 
-            <button type='submit' disabled={!selectedFile && !picture} >Submit</button>
-        </form>
+                <form id="form1">
+                    <div {...getRootProps()}  className='input-file'>
+                        <input {...getInputProps()} accept="application/pdf" />
+
+                        {
+                            selectedFile?.name ??
+                            " select File"
+
+                        }
+                    </div>
+                    <div className="or-box">
+                        <span className="">or</span>
+                    </div>
+                    <div className="">
+                            <input type='file' id="imgInp" accept="image/*" capture="camera" onChange={onCameraCapture} />
+                            {picture && <NImage id="blah" src={picture} alt="your image" width={selectedFileDimensions.width} height={selectedFileDimensions.height} />}
+                    </div>
+
+
+                    <button type='submit' disabled={!selectedFile && !picture} className='btn-form' >See The Interprertation </button>
+                </form>
+        </div>
+        </section>
+
+        </>
+
     )
 }
 export default Camera

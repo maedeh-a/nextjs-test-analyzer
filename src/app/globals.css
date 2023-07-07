@@ -1,0 +1,117 @@
+/* colors */
+:root{
+    --blue:#45b3cc;
+    --gray900:#191919;
+    --black:#020403;
+    --gray:#555;
+    --gray100:#cacaca;
+}
+/* camera */
+section.Camera-upload-body{
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.upload-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 340px;
+    text-align: right;
+    margin: auto;
+    padding-top: 15%;
+    padding-inline: 16px;
+}
+.upload-box .text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.upload-box .text-box h1{
+    color: var(--black);
+    font-weight: 500;
+
+}
+.upload-box .text-box .text-by{
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 400;
+}
+.upload-box .text-box .text1{
+    color: var(--gray900);
+    font-size: 16px;
+    font-weight: 700;
+}
+.upload-box .text-box .text2 {
+    color: var(--gray900);
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+.upload-box form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.upload-box form .btn-form{
+    background-color:  var(--blue);
+    color: white;
+    font-size: 16px;
+    border-radius:15px ;
+    border: none;
+    margin-block: 32px;
+    padding-inline: 32px;
+    padding-block:8px ;
+    width: 90%;
+}
+.upload-box .or-box{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 45px;
+    margin-block: 16px;
+    color: var(--gray);
+    
+
+}
+
+.upload-box .or-box::after {
+    background-color: var(--gray100);
+    height: 1px;
+    position: absolute;
+    content: " ";
+    left: 0px;
+    width: 45%;
+    bottom: 7px;
+}
+.upload-box .or-box::before {
+    background-color: var(--gray100);
+    height: 1px;
+    position: absolute;
+    content: " ";
+    right: 0px;
+    width: 45%;
+    bottom: 7px;
+}
+.upload-box form .input-file{
+
+border-image: linear-gradient(#9d9d9d, #45b3cc) 30;
+border-width:5px;
+border-style: solid;
+padding: 16px;
+border-radius: 15px;
+width: 100%;
+margin-bottom: 6px;
+text-align: center;
+border-radius: 50em;
+color: var(--gray);
+font-size: 16px;
+margin-top: 16px;
+
+}
