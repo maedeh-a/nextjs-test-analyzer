@@ -1,8 +1,9 @@
 import {default as NImage} from 'next/image';
 import React, { useCallback, useState } from 'react'
 import { useDropzone } from 'react-dropzone';
-import doctor from '../img/doctor.png'
+import doctor from '../../img/doctor.png'
 import Image from 'next/image'
+
 
 const Camera = () => {
     const [picture, setPicture] = useState('')
