@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "title": "OUT OF RANGE FACTORS",
+      "description": "Spotting Abnormal Test Results",
+      "items": [
+        {
+          "id": 1,
+          "title": "Elevated Blood Glucose",
+          "description": "High glucose levels suggest poor glucose control or a pre-diabetic condition."
+        },
+        {
+          "id": 2,
+          "title": "High LDL Cholesterol",
+          "description": "Excessive Low-Density Lipoprotein cholesterol often suggests an unhealthy diet or possible heart disease."
+        },
+        {
+          "id": 3,
+          "title": "Low Hemoglobin",
+          "description": "Hemoglobin carries oxygen in the blood, and low levels might be indicative of anemia or another blood disorder."
+        }
+      ]
+    },
+    {
+      "title": "Organ Health Analysis",
+      "description": "Organ Functioning Breakdown",
+      "items": [
+        {
+          "id": 4,
+          "title": "Heart Health",
+          "description": "Balanced diet, exercise, and regular check-ups maintain effective blood pumping."
+        },
+        {
+          "id": 5,
+          "title": "Liver Health",
+          "description": "Low-fat diet, exercise, and moderate alcohol use help in detoxification and blood clotting."
+        },
+        {
+          "id": 6,
+          "title": "Kidney Health",
+          "description": "Balanced diet, hydration, and reduced sodium intake support waste filtration and bodily fluid regulation."
+        },
+        {
+          "id": 7,
+          "title": "Immune System Health",
+          "description": "Nutritious diet, exercise, sleep, hygiene, and vaccinations aid in boosting immune response and disease prevention."
+        }
+      ]
+    },
+    {
+      "title": "Overall Health Assessment",
+      "description": "Integrated Disease Detection",
+      "items": [
+        {
+          "id": 8,
+          "title": "Overall Assessment",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "title": "Advice and Recommendations",
+      "description": "Integrated Disease Detection",
+      "items": [
+        {
+          "id": 9,
+          "title": "Recommendations",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    }
+  ]
+}

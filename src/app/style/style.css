@@ -206,12 +206,8 @@ section.Camera-upload-body {
     border-radius: 15px;
 }
 
-.items {
-    margin-bottom: 16px;
-}
-
 .items .content {
-    margin-inline: 20px;
+    margin-inline: 20px 4px;
 }
 
 .items .content .caption1 {
@@ -259,7 +255,7 @@ section.Camera-upload-body {
     box-shadow: 0 -4px 24px 0 rgba(13, 13, 13, 0.04);
     border-radius: 15px;
     padding-inline: 16px;
-    padding-block: 48px;
+    padding-block: 48px 16px;
     width: 700px;
     margin-inline: auto;
     margin-top: -20px;
@@ -313,6 +309,7 @@ section.Camera-upload-body {
     border: 1px solid var(--gray);
     margin-bottom: 32px;
     border-radius: 15px;
+    overflow: hidden;
 }
 
 .accordion-body .accordion-flush .accordion-item:first-child {

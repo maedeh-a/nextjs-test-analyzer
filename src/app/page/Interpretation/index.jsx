@@ -4,7 +4,7 @@ import Factor from '../../components/Factor'
 import Accordion from '../../components/Accordion'
 import Header from '../../components/Header'
 import HeaderMobile from '../../components/HeaderMobile'
-function Interpretation() {
+function Interpretation({data}) {
   return (
     <>
       
@@ -12,9 +12,8 @@ function Interpretation() {
         <div className="container">
           <Header/>
           <Intro />
-          <Factor/>
-          <Accordion/>
-       
+          <Factor data={data}/>
+          <Accordion data={data} />
         </div>
         <HeaderMobile />
        
