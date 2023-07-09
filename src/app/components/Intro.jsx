@@ -5,7 +5,7 @@ import Link from 'next/link'
 function Intro() {
   return (
     <>
-    <section className="intro-body my-4 py-3">
+    <section className="intro-body mt-4 py-3">
         <div className="intro-box d-flex">
             <div className="col-6">
                 <div className="intro-text d-flex flex-column align-items-start">
