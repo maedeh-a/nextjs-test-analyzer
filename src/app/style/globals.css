@@ -30,4 +30,5 @@ button[disabled]{
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }

@@ -6,7 +6,6 @@ import Header from '../../components/Header'
 import HeaderMobile from '../../components/HeaderMobile'
 import Export from '../../components/Export'
 import Footer from '../../components/Footer'
-import CameraDesktop from '../../components/CameraDesktop'
 function Interpretation({data}) {
   return (
     <>
@@ -14,14 +13,13 @@ function Interpretation({data}) {
       <section className='interpretation-body '>
         <div className="container">
           <Header/>
-          <CameraDesktop/>
           <Intro />
           <Factor data={data}/>
           <Accordion data={data} />
           <Export/>
         </div>
        
-        <HeaderMobile />
+      
         <Footer/>
       </section>
     </>

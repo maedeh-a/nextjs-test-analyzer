@@ -11,12 +11,13 @@
 
     }
     .intro-body .intro-text .text-intro {
-        font-size: 12px;
+        font-size: 10px;
     }
     .intro-body .powered-link {
         font-size: 12px;
         padding-inline: 12px;
         padding-block: 6px;
+        margin-top: 0px;
     }
     .intro-body {
         padding-inline: 16px;
@@ -24,7 +25,8 @@
 
     }
     .intro-body .img-box img{
-        width: 150px;
+        width: 161px;
+        height: 207px;
     }
     .factor-body {
         width: 340px;
@@ -68,5 +70,42 @@
         padding-inline: 10px;
         width: 70%;
       
+    }
+    .Camera-upload-body .img-box img {
+        width: 244px;
+        height: 209.532px;
+       
+    }
+    .intro-body .intro-box {
+        min-height: 150px;
+    }
+    .items div.icon-items img{
+        width: 30px !important;
+        height: 30px;
+    }
+    .items .content .caption1 {
+
+        font-size: 14px;
+
+    }
+    .items .icon-items {
+        border-radius: 18px;
+        padding: 12px;
+        min-width: 54px;
+    }
+    .export-body {
+        border-radius: 0px;
+        background: var(--gray100);
+        width: 340px;
+        margin-inline: unset;
+        padding-inline: 32px;
+        padding-block: 16px;
+    }
+    .export-body a {
+        font-size: 16px;
+    }
+    .export-body .export {
+        font-size: 16px;
+
     }
 }

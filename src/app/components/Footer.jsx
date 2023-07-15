@@ -8,14 +8,14 @@ function Footer() {
   return (
     <>
     <div className="footer-body d-flex px-lg-5 px-3 align-items-center">
-        <div className="col-6">
+        <div className="col-5">
             <div className="footer-link-box">
                 <Link href="">
                           <Image src={Instagram}  width={30}/>
                 </Link>
             </div>
         </div>
-        <div className="col-6">
+        <div className="col-7">
                 <div className="copyright-box d-flex flex-column align-items-start justify-content-center">
                     <Image src={Logo} />
                         <div className=" d-flex flex-row align-items-center justify-content-center ">

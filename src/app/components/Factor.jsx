@@ -18,7 +18,7 @@ function Factor({ data }) {
                                
                                   
                                    
-                                    <div className="items d-flex align-items-center justify-content-center">
+                                    <div className="items d-flex align-items-center justify-content-lg-center justify-content-left">
                                         {icons[idx]}
                                         <div className="content d-flex flex-column  align-items-start justify-content-start">
                                             <span className="caption1">
