@@ -4,6 +4,8 @@ import Factor from '../../components/Factor'
 import Accordion from '../../components/Accordion'
 import Header from '../../components/Header'
 import HeaderMobile from '../../components/HeaderMobile'
+import Export from '../../components/Export'
+import Footer from '../../components/Footer'
 function Interpretation({data}) {
   return (
     <>
@@ -14,9 +16,11 @@ function Interpretation({data}) {
           <Intro />
           <Factor data={data}/>
           <Accordion data={data} />
+          <Export/>
         </div>
-        <HeaderMobile />
        
+        <HeaderMobile />
+        <Footer/>
       </section>
     </>
   )

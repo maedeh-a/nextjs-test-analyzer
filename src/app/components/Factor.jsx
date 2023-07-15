@@ -7,15 +7,20 @@ function Factor({ data }) {
 
     return (
         <>
-            <section className="factor-body d-flex flex-column align-items-center justify-content-center">
+            <section className="factor-body d-flex flex-column flex-lg-row flex-wrap align-items-center justify-content-center">
                 {
                     !data?.AIResponse ?
                         data?.data.map((item, idx) => {
-                            return <Link href={'#factor' + (idx + 1)} key={idx} className='w-100'>
-                                <section className='mb-4' >
-                                    <div className="items d-flex align-items-center">
+
+                            return <section className='mb-4 col-lg-6 col-12' key={idx}>
+                             <Link href={'#factor' + (idx + 1)}  className='w-100'>
+
+                               
+                                  
+                                   
+                                    <div className="items d-flex align-items-center justify-content-center">
                                         {icons[idx]}
-                                        <div className="content d-flex flex-column align-items-start justify-content-start">
+                                        <div className="content d-flex flex-column  align-items-start justify-content-start">
                                             <span className="caption1">
                                                 {item.title}
                                             </span>
@@ -27,8 +32,13 @@ function Factor({ data }) {
                                     <div className="d-flex">
                                         <ArrowDown />
                                     </div>
-                                </section>
+                                
+
+
+
+                                
                             </Link>
+                            </section>
                         }) : null
                 }
             </section>

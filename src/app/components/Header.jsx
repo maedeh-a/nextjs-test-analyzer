@@ -1,14 +1,20 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Image from 'next/image'
+import Logo3 from '../img/logo3.png'
 
 function Header() {
     return (
         <>
+        <header className='d-flex align-items-cneter mb-5'>
+            <div className='logo me-auto'>
+                <Image src={Logo3} />
+            </div>
             <div className="header-box d-flex align-items-center justify-content-between">
                 {/* header */}
                 <div className="navbar d-lg-block d-none">
-                    <Navbar  data-bs-theme="light">
+                    <Navbar data-bs-theme="light">
                         <Container>
                             <Navbar.Brand href="#home"></Navbar.Brand>
                             <Nav className="me-auto">
@@ -20,7 +26,7 @@ function Header() {
                                         </svg>
                                         Home
                                     </div>
-                                    
+
                                 </Nav.Link>
                                 <Nav.Link href="#features">
                                     <div className="mx-2 d-flex align-items-center">
@@ -113,6 +119,9 @@ function Header() {
 
                 </div>
             </div>
+
+        </header>
+
 
         </>
     );
