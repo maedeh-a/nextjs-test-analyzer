@@ -71,7 +71,7 @@ const Camera = ({ setData }) => {
             <section className="Camera-upload-body">
                 <div className='upload-box'>
                     <div className="head-upload">
-                        <div className="text-box">
+                        <div className="upload-text-box d-flex flex-column align-items-center justify-content-center">
                             <h1>
                                 AL MED TEST
                             </h1>
@@ -80,7 +80,7 @@ const Camera = ({ setData }) => {
                         <div className=" img-box">
                             <NImage src={doctor} objectFit="cover" width={300} />
                         </div>
-                        <div className="text-box">
+                        <div className="upload-text-box d-flex flex-column align-items-center justify-content-center">
                             <span className="text1">upload a photo or PDF <br /> Of Your Medical Test</span>
                             <p className="text2">
                                 It colud be ablood test result or repot of eny medical test like MRT , CT-Scan or Sonogaphy.

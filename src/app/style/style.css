@@ -20,39 +20,35 @@ section.Camera-upload-body {
 
 }
 
-.upload-box .text-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.upload-box .text-box h1 {
+.upload-text-box h1 {
     color: var(--black);
     font-weight: 500;
 
 }
 
-.upload-box .text-box .text-by {
+.upload-text-box .text-by {
     color: var(--gray);
-    font-size: 15px;
-    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top:16px;
 }
 
-.upload-box .text-box .text1 {
+.upload-text-box .text1 {
     color: var(--gray900);
     font-size: 16px;
     font-weight: 700;
 }
 
-.upload-box .text-box .text2 {
+.upload-text-box .text2 {
     color: var(--gray900);
     font-size: 13px;
     font-weight: 400;
     text-align: center;
 }
 
-.upload-box form {
+form#form1  {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +56,7 @@ section.Camera-upload-body {
 
 }
 
-.upload-box form .btn-form {
+form#form1 .btn-form {
     background-color: var(--blue);
     color: white;
     font-size: 16px;
@@ -73,7 +69,7 @@ section.Camera-upload-body {
 
 }
 
-.upload-box .or-box {
+form#form1 .or-box {
     position: relative;
     width: 100%;
     display: flex;
@@ -86,7 +82,7 @@ section.Camera-upload-body {
 
 }
 
-.upload-box .or-box::after {
+form#form1 .or-box::after {
     background-color: var(--gray100);
     height: 1px;
     position: absolute;
@@ -96,7 +92,7 @@ section.Camera-upload-body {
     bottom: 7px;
 }
 
-.upload-box .or-box::before {
+form#form1 .or-box::before {
     background-color: var(--gray100);
     height: 1px;
     position: absolute;
@@ -106,7 +102,7 @@ section.Camera-upload-body {
     bottom: 7px;
 }
 
-.upload-box form .input-file {
+form#form1  .input-file {
 
     border-image: linear-gradient(#9d9d9d, #45b3cc) 30;
     border-width: 5px;
@@ -124,7 +120,7 @@ section.Camera-upload-body {
 
 }
 
-.upload-box .upload-camera {
+form#form1 .upload-camera {
     background-color: var(--green);
     border-radius: 20px;
     padding-inline: 32px;
@@ -136,25 +132,25 @@ section.Camera-upload-body {
 
 }
 
-.upload-box .upload-camera .file-box {
+form#form1 .upload-camera .file-box {
     border: 1px solid var(--gray900);
     background-color: white;
     color: var(--blue);
 
 }
 
-.upload-box .img-box {
+form#form1 .img-box {
     text-align: center;
 }
 
-.upload-box .input-file {
+form#form1 .input-file {
     color: var(--gray);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.upload-box .input-file svg {
+form#form1 .input-file svg {
     margin-inline: 5px;
 }
 
