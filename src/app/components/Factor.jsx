@@ -29,7 +29,7 @@ function Factor({ data }) {
                                             </span>
                                         </div>
                                     </div>
-                                    <div className="d-flex">
+                                    <div className="d-flex d-lg-none d-block">
                                         <ArrowDown />
                                     </div>
                                 

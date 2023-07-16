@@ -108,4 +108,12 @@
         font-size: 16px;
 
     }
+    .export-body .export img{
+        height: 28px;
+        width: 28px;
+    }
+    .export-body a  img{
+        width: 23.385px;
+        height: 24px;
+    }
 }

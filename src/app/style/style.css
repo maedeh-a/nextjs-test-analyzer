@@ -882,7 +882,7 @@ form#form1 .input-file svg {
 
     .custom-navbar .nav {
         position: absolute;
-        top: calc(100% + 1px);
+        top: calc(100% + 23px);
         left: 0;
         background: #fff;
         border-radius: 0 0 0 0;
@@ -914,12 +914,16 @@ form#form1 .input-file svg {
 }
 
 @media (max-width: 991.98px) {
-    .custom-navbar .nav.show {
+    .custom-navbar .show.nav,
+        .custom-navbar .show.nav .nav{
         opacity: 1;
         visibility: visible;
         -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
         transform: translateY(0);
+    }
+    .custom-navbar .show .top19{
+        top: -20px;
     }
 
     .custom-navbar .nav .item .link {
